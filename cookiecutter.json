@@ -4,5 +4,6 @@
     "project_name": "Python Script",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "project_short_description": "A Cisco Sample Code Python Script",
+    "version": "0.1.0",
     "use_click": "y"
 }
