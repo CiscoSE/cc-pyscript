@@ -19,13 +19,13 @@ or implied.
 
 """
 
-{% if cookiecutter.use_click == 'y' %}
+{% if cookiecutter.use_click == 'y' -%}
 import sys
 
 import click
 
 
-{% endif %}
+{% endif -%}
 __author__ = "{{ cookiecutter.full_name }}"
 __email__ = "{{ cookiecutter.email }}"
 __version__ = "{{ cookiecutter.version }}"
@@ -33,7 +33,7 @@ __copyright__ = "Copyright (c) {% now 'local', '%Y' %} Cisco and/or its affiliat
 __license__ = "Cisco Sample Code License, Version 1.0"
 
 
-{% if cookiecutter.use_click == 'y' %}
+{% if cookiecutter.use_click == 'y' -%}
 @click.command()
 def main(*args, **kwargs):
     """{{cookiecutter.project_slug}} Console Script."""
@@ -45,6 +45,6 @@ def main(*args, **kwargs):
 
 if __name__ == "__main__":
     sys.exit(main())
-{% else %}
+{% else -%}
 # Ready for your code.
-{% endif %}
+{% endif -%}
