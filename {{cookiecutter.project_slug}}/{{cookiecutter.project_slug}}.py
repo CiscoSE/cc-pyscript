@@ -19,7 +19,7 @@ or implied.
 
 """
 
-{% if cookiecutter.use_click == 'y' -%}
+{% if cookiecutter.use_click|lower|trim == "y" -%}
 import sys
 
 import click
@@ -33,7 +33,7 @@ __copyright__ = "Copyright (c) {% now 'local', '%Y' %} Cisco and/or its affiliat
 __license__ = "Cisco Sample Code License, Version 1.0"
 
 
-{% if cookiecutter.use_click == 'y' -%}
+{% if cookiecutter.use_click|lower|trim == "y" -%}
 @click.command()
 def main(*args, **kwargs):
     """{{cookiecutter.project_slug}} Console Script."""
