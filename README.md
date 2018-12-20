@@ -11,7 +11,7 @@ Creating a Python script is easy. Sharing one, with the needed licensing and ess
 ## Show Me!
 
 ```bash
-$ cookiecutter ~/dev/projects/ciscose-cookiecutter-templates/cc-pyscript
+$ cookiecutter cc-pyscript
 full_name [John Doe]:
 email [jdoe@cisco.com]:
 project_name [Python Script]: Rainbow Unicorn
