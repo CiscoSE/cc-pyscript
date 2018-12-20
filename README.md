@@ -8,12 +8,33 @@ This [Cookiecutter] project template makes it easy for you to start a *Cisco Sam
 
 Creating a Python script is easy. Sharing one, with the needed licensing and essential documentation, should also be easy.
 
-## Show Me
+## Show Me!
 
 ```bash
-$ cookiecutter cc-pyscript
+$ cookiecutter ~/dev/projects/ciscose-cookiecutter-templates/cc-pyscript
+full_name [John Doe]:
+email [jdoe@cisco.com]:
+project_name [Python Script]: Rainbow Unicorn
+project_slug [rainbow_unicorn]:
+project_short_description [Cisco Sample Code Python Script]: Does cool stuff
+version [0.1.0]:
+use_click [y]:
 
-$ tree -a my-project/
+$ tree -a rainbow_unicorn/
+rainbow_unicorn/
+├── .github
+│   ├── ISSUE_TEMPLATE
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   └── PULL_REQUEST_TEMPLATE.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+├── rainbow_unicorn.py
+└── requirements.txt
+
+2 directories, 9 files
 ```
 
 ## Features
