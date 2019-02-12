@@ -5,7 +5,7 @@
 Copyright (c) {% now 'local', '%Y' %} Cisco and/or its affiliates.
 
 This software is licensed to you under the terms of the Cisco Sample
-Code License, Version 1.0 (the "License"). You may obtain a copy of the
+Code License, Version 1.1 (the "License"). You may obtain a copy of the
 License at
 
                https://developer.cisco.com/docs/licenses
@@ -30,7 +30,7 @@ __author__ = "{{ cookiecutter.full_name }}"
 __email__ = "{{ cookiecutter.email }}"
 __version__ = "{{ cookiecutter.version }}"
 __copyright__ = "Copyright (c) {% now 'local', '%Y' %} Cisco and/or its affiliates."
-__license__ = "Cisco Sample Code License, Version 1.0"
+__license__ = "Cisco Sample Code License, Version 1.1"
 
 
 {% if cookiecutter.use_click|lower|trim == "y" -%}
